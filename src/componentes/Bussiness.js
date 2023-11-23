@@ -18,7 +18,7 @@ function Bussiness() {
     return (
     <div>
       <ul>
-          <hi>{bussiness.name}</hi>
+          <h1>{bussiness.name}</h1>
           <li>{bussiness.image}</li>
           <li>{bussiness.address}</li>
           <li>{bussiness.city}</li>
