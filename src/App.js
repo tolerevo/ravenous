@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Bussiness from './componentes/Bussiness';
 
 function App() {
   return (
     <div className="App">
-     Hello!
+     <div className='contenedor-principal'>
+        <h1>Restaurants!</h1>
+        <Bussiness />
+     </div> 
     </div>
   );
 }
