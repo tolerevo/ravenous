@@ -34,6 +34,7 @@ const Bussiness = props => {
 Bussiness.defaultProps = { name: 'El realto' };
 
 class Elrealto extends React.Component {
+  // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
   }
