@@ -1,4 +1,5 @@
 import React from 'react';
+import '../hojas-de-estilo/Bussiness.css'
 
 const Bussiness = props => {
   const Bussi = {
@@ -23,9 +24,9 @@ const Bussiness = props => {
           <li>{Bussi.city}</li>
           <li>{Bussi.state}</li>
           <li>{Bussi.zipCode}</li>
-          <li>{Bussi.category}</li>
-          <li>{Bussi.rating}</li>
-          <li>{Bussi.reviewCount}</li>
+          <li className='remark'>{Bussi.category}</li>
+          <li className='remark'>{Bussi.rating}</li>
+          <li className='remark'>{Bussi.reviewCount}</li>
         </ul>
       </div>
     </div>
@@ -41,7 +42,9 @@ class Elrealto extends React.Component {
   render (){
     return (
       <div>
-        <Bussiness />
+       <body>
+         <Bussiness />
+       </body>
       </div>
     );
   }
