@@ -49,12 +49,3 @@ li {
   text-align: left;
   line-height: 1.4;
 }
-
-li.remark {
-
-  font-size: 1em;
-  color: goldenrod;
-  list-style: none;
-  font-weight: 700;
-  text-align: right;
-}
