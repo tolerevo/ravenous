@@ -16,21 +16,18 @@ const bussiness = {
 
 function Bussiness() {
   return (
-    <div>
-     <div className='contenedor-principal'>
-       <ul className='contenedor-restaurante'>
-          <h1>{bussiness.name}</h1>
-          <img src={bussiness.ImageSrc} alt={bussiness.name} />
-          <li>{bussiness.address}</li>
-          <li>{bussiness.city}</li>
-          <li>{bussiness.state}</li>
-          <li>{bussiness.zipCode}</li>
-          <li className='remark'>{bussiness.category}</li>
-          <li className='remark'>{bussiness.rating}</li>
-          <li className='remark'>{bussiness.reviewCount}</li>
-         </ul>
+    <>
+     <div className='contenedor-restaurante'>
+      <h1>{bussiness.name}</h1>
+      <img src={bussiness.ImageSrc} alt={bussiness.name} />
+      <ul>
+        <li>{bussiness.address}.  .  .  .   {bussiness.category}</li>
+        <li>{bussiness.city}.  .  .  . .  .  .  . .  .   Rating{bussiness.rating}</li>
+        <li>state {bussiness.state} .  .  .   .  .  .  .  .  .  .  .  Review{bussiness.reviewCount}</li>
+        <li>zipCode {bussiness.zipCode}</li>
+       </ul>
      </div>
-    </div>
+    </>
   );
 }
 

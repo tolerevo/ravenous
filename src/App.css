@@ -25,15 +25,8 @@ h1 {
 }
 .contenedor-principal {
   min-height: 600px;
-  display: flex;
+  display: inline-flex;
   flex-wrap:nowrap;
-  align-items: center;
-  justify-content: center;
-}
-.contenedor-principal {
-  min-height: 600px;
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }

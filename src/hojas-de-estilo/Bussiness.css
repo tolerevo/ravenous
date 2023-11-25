@@ -13,47 +13,40 @@ h1 {
   max-width: 940px;
   text-decoration: none;
   font-size: 1.5em;
+  text-align: center;
   font-family: Lato, sans-serif;
   font-weight: 700;
-  line-height: 1.1;
-  margin: 40px 0;
+  line-height: 1;
+  margin: 20px 0;
   color: #000;
 }
 
 img {
   width: 200px;
-  min-height: 100%;
+  height: auto;
 }
 
-.contenedor-principal {
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border: 1px solid gold;
-  min-height: 500px;
-  padding: 1em;
-}
-
-ul.contenedor-resturante {
+.contenedor-resturante {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: left;
+  align-items:stretch;
+  justify-content: center;
+  border: 1px solid goldenrod;
   flex-flow: wrap column;
-  text-align: left;
+  text-align: center;
   width: 250px;
+  height: 300px;
 }
 
 li {
-  font-size: 1em;
-  color: darkorchid;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0.7em;
+  color: black;
   list-style: none;
   font-weight: 700;
-  text-align: left;
+  text-align:left;
   line-height: 1.4;
 }
 
