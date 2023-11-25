@@ -1,11 +1,11 @@
 import './App.css';
-import Elrealto from './componentes/Bussiness';
+import Bussiness from './componentes/Bussines';
 
 function App() {
   return (
     <div className="App">
       <div className='contenedor-principal'>
-        <Elrealto />
+        <Bussiness />
       </div>
     </div>
   );

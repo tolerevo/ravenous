@@ -26,7 +26,7 @@ h1 {
 .contenedor-principal {
   min-height: 600px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:nowrap;
   align-items: center;
   justify-content: center;
 }
