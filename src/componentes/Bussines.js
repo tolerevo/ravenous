@@ -2,7 +2,7 @@ import React from 'react';
 import '../hojas-de-estilo/Bussiness.css';
 
 const styles = {
-  fontSize:'1em',
+  fontSize: '1em',
   color: 'goldenrod',
   listStyle: 'none',
   fontWeight: '700',
@@ -24,16 +24,16 @@ const bussiness = {
 function Bussiness() {
   return (
     <>
-     <div className='contenedor-restaurante'>
-      <h1>{bussiness.name}</h1>
-      <img src={bussiness.ImageSrc} alt={bussiness.name} />
-      <ul>
-        <li>{bussiness.address}<hr /><h2 style={styles}>{bussiness.category}</h2></li>
-        <li>{bussiness.city}<hr /><h2 style={styles}> Rating{bussiness.rating}</h2> </li>
-        <li>state {bussiness.state}<hr /><h2 style={styles}> Review{bussiness.reviewCount}</h2></li>
-        <li>zipCode {bussiness.zipCode}</li>
-       </ul>
-     </div>
+      <div className='contenedor-restaurante'>
+        <h1>{bussiness.name}</h1>
+        <img src={bussiness.ImageSrc} alt={bussiness.name} />
+        <ul>
+          <li>{bussiness.address}<hr /><h2 style={styles}>{bussiness.category}</h2></li>
+          <li>{bussiness.city}<hr /><h2 style={styles}> Rating{bussiness.rating}</h2> </li>
+          <li>state {bussiness.state}<hr /><h2 style={styles}> Review{bussiness.reviewCount}</h2></li>
+          <li>zipCode {bussiness.zipCode}</li>
+        </ul>
+      </div>
     </>
   );
 }
