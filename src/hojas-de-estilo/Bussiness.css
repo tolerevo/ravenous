@@ -30,7 +30,7 @@ img {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  align-items:stretch;
+  align-items: stretch;
   justify-content: center;
   border: 1px solid goldenrod;
   flex-flow: wrap column;
@@ -46,7 +46,7 @@ li {
   color: black;
   list-style: none;
   font-weight: 700;
-  text-align:left;
+  text-align: left;
   line-height: 1.4;
 }
 
