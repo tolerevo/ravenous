@@ -4,12 +4,13 @@ import Bussiness from './componentes/Bussines';
 function App() {
   return (
     <div className="App">
-      <ul className='contenedor-principal'>
-        <li>
+      <div className='contenedor-restaurante'>
+          <main>
           <Bussiness />
           <Bussiness />
-        </li>
-      </ul>
+          <Bussiness />
+          </main> 
+      </div>
     </div>
   );
 }

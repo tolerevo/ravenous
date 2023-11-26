@@ -23,8 +23,7 @@ const bussiness = {
 
 function Bussiness() {
   return (
-    <>
-      <div className='contenedor-restaurante'>
+      <div>
         <h1>{bussiness.name}</h1>
         <img src={bussiness.ImageSrc} alt={bussiness.name} />
         <ul>
@@ -34,7 +33,6 @@ function Bussiness() {
           <li>zipCode {bussiness.zipCode}</li>
         </ul>
       </div>
-    </>
   );
 }
 
