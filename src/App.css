@@ -24,7 +24,7 @@ section {
   overflow: scroll;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items:normal;
+  align-items: normal;
   justify-content: center;
   text-align: center;
 }
@@ -32,10 +32,10 @@ section {
 .contenedor-restaurante {
   list-style: none;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   flex-flow: wrap row;
   text-align: center;
-  float:inline-end;
+  float: inline-end;
   padding: 10px;
   overflow: scroll;
   margin: 10px;
@@ -43,8 +43,8 @@ section {
 }
 
 main {
-  display:flex;
-  flex-flow: row nowrap; 
+  display: flex;
+  flex-flow: row nowrap;
   height: 1000px;
   overflow: scroll;
   width: 800px;
