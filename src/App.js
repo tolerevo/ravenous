@@ -1,18 +1,13 @@
 import './App.css';
 import Bussiness from './componentes/Bussines';
+import BussinessList from './componentes/BussinessList';
 
 function App() {
   return (
-    <div className="App">
-      <div className='contenedor-restaurante'>
-          <main>
-          <Bussiness />
-          <Bussiness />
-          <Bussiness />
-          </main> 
-      </div>
-    </div>
+      <div>
+       <BussinessList /> 
+     </div>
   );
-}
+} 
 
 export default App;

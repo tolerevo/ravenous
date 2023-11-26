@@ -21,9 +21,12 @@ h1 {
   color: #000;
 }
 
-img {
-  width: 200px;
-  height: auto;
+img.image {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
 }
 
 .contenedor-resturante {
