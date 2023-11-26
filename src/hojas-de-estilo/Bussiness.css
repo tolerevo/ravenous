@@ -6,7 +6,7 @@
 html,
 body {
   font-size: 18px;
-  background-color: hsla(213, 44%, 30%, 1);
+  background-color: antiquewhite;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
   font-weight: 700;
   line-height: 1;
   margin: 20px;
-  color: #89c078;
+  color: #73a963;
 }
 
 h2 {
@@ -39,7 +39,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 250px;
+  width: 200px;
   height: 250px;
 }
 
