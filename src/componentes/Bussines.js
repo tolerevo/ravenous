@@ -14,11 +14,11 @@ const bussiness = {
   reviewCount: 90
 };
 
-function Bussiness() {
+function Bussiness(props) {
   return (
     <div>
-     <div className='contenedor-principal'>
-       <ul className='contenedor-restaurante'>
+      <div className='contenedor-principal'>
+        <ul className='contenedor-restaurante'>
           <h1>{bussiness.name}</h1>
           <img src={bussiness.ImageSrc} alt={bussiness.name} />
           <li>{bussiness.address}</li>
@@ -28,8 +28,8 @@ function Bussiness() {
           <li className='remark'>{bussiness.category}</li>
           <li className='remark'>{bussiness.rating}</li>
           <li className='remark'>{bussiness.reviewCount}</li>
-         </ul>
-     </div>
+        </ul>
+      </div>
     </div>
   );
 }
