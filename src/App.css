@@ -19,26 +19,27 @@ h1 {
   margin: 40px 0;
 }
 
-.App {
-
-  display: grid;
+section {
+  position: relative;
   overflow: scroll;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  justify-content;
+  align-items:normal;
+  justify-content: center;
   text-align: center;
 }
 
 .contenedor-restaurante {
   list-style: none;
   align-items: center;
-  justify-content:space-between;
+  justify-content:space-evenly;
   flex-flow: wrap row;
   text-align: center;
-  padding: 20px;
+  float:inline-end;
+  padding: 10px;
   overflow: scroll;
-  margin: 10px auto;
+  margin: 10px;
+  padding-left: 1rem;
 }
 
 main {
@@ -46,5 +47,5 @@ main {
   flex-flow: row nowrap; 
   height: 1000px;
   overflow: scroll;
-  width: 1000px;
+  width: 800px;
 }
