@@ -3,14 +3,12 @@ import BussinessList from './componentes/BussinessList';
 
 function App() {
   return (
-    <>
-      <main>
-        <section>
-          <h6><BussinessList className='contenedor-restaurante' /></h6>
-          <h6><BussinessList className='contenedor-restaurante' /></h6>
-        </section>
+    <div className='contenedor-principal'>
+      <main className='contenedor-componente '>
+        <BussinessList className='contenedor-restaurante' />
+        <BussinessList className='contenedor-restaurante' />
       </main>
-    </>  
+    </div>
   );
 } 
 

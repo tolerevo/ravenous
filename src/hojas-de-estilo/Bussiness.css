@@ -10,7 +10,6 @@ body {
 }
 
 h1 {
-  max-width: 940px;
   text-decoration: none;
   font-size: 1.5em;
   text-align: center;
@@ -21,7 +20,15 @@ h1 {
   color: #89c078;
 }
 
-img.image {
+h2 {
+  text-align: right;
+  float: right;
+  color: goldenrod;
+  font-weight: 900;
+  font-style: italic;
+}
+
+img {
   width: 200px;
   height: 200px;
 }
