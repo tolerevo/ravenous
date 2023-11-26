@@ -5,8 +5,11 @@ function BussinessList() {
   const restaurants = [
     {Bussiness}, 
     {Bussiness}, 
-    {Bussiness} 
-  ];
+    {Bussiness},
+    {Bussiness},
+    {Bussiness}, 
+    {Bussiness}
+   ];
   return (
     <div>
 {restaurants.map((restaurant) => (

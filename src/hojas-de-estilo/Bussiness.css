@@ -17,38 +17,32 @@ h1 {
   font-family: Lato, sans-serif;
   font-weight: 700;
   line-height: 1;
-  margin: 20px 0;
-  color: #000;
+  margin: 20px;
+  color: #89c078;
 }
 
 img.image {
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin-right: 10px;
-}
-
-.contenedor-resturante {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: center;
-  border: 1px solid goldenrod;
-  flex-flow: wrap column;
-  text-align: center;
-  width: 250px;
+  width: 300px;
   height: 300px;
 }
 
+.contenedor-resturante {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+}
+
 li {
-  margin: 0 auto;
-  padding: 0;
+  margin: auto;
+  padding: 5px;
   font-size: 0.7em;
   color: black;
   list-style: none;
   font-weight: 700;
   text-align: left;
-  line-height: 1.4;
+  line-height: 1;
 }

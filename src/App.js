@@ -1,12 +1,17 @@
 import './App.css';
-import Bussiness from './componentes/Bussines';
 import BussinessList from './componentes/BussinessList';
 
 function App() {
   return (
-      <div>
-       <BussinessList /> 
-     </div>
+    <App>
+      <main>
+        <ul>
+          <li><BussinessList className='contenedor-restaurante' /></li>
+          <li><BussinessList className='contenedor-restaurante' /></li>
+        </ul>
+      </main>
+    </App>
+    
   );
 } 
 

@@ -16,13 +16,13 @@ const bussiness = {
 
 function Bussiness() {
   return (
-      <div>
-        <h1>{bussiness.name}</h1>
+      <div className='contenedor-restaurante'>
         <img className='image' src={bussiness.ImageSrc} alt={bussiness.name} />
+        <h1>{bussiness.name}</h1>
         <ul>
-          <li>{bussiness.address}<hr /><h2 style={styles}>{bussiness.category}</h2></li>
-          <li>{bussiness.city}<hr /><h2 style={styles}> Rating{bussiness.rating}</h2> </li>
-          <li>state {bussiness.state}<hr /><h2 style={styles}> Review{bussiness.reviewCount}</h2></li>
+          <li>{bussiness.address}<hr /><h2>{bussiness.category}</h2></li>
+          <li>{bussiness.city}<hr /><h2> Rating{bussiness.rating}</h2> </li>
+          <li>state {bussiness.state}<hr /><h2> Review{bussiness.reviewCount}</h2></li>
           <li>zipCode {bussiness.zipCode}</li>
         </ul>
       </div>
